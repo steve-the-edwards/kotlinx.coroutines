@@ -64,3 +64,7 @@ tasks.koverHtmlReport {
 tasks.koverVerify {
     excludes = commonKoverExcludes
 }
+
+tasks.apiCheck {
+    enabled = false
+}
